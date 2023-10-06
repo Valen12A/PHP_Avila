@@ -61,7 +61,8 @@ echo '<br>';
 
 function devolver_fecha(){
     $fecha_hora= date ('Y-M-D H:i:s');
-    return $fecha_hora;
+    
+     $fecha_hora;
 }
 
 $fecha_hora = devolver_fecha();
