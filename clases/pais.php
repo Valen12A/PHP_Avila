@@ -22,7 +22,7 @@ class Pais{
 
 
 $pais1 = new Pais('Colombia', 'Bogotá', 'Peso Colombiano');
-$pais2 = new Pais('Argentina','Buenos aires', 'Peso argentino');
+$pais2 = new Pais('Argentina','Buenos aires', 'Peso Argentino');
 $pais3 = new Pais('Estados unidos', 'Washington', 'Dolar');
 $pais4 = new Pais('Chile','Santiago de chile', 'Peso Chileno');
 $pais5 = new Pais('Rusia', 'Moscu', 'Rublo');

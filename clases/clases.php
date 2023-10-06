@@ -116,8 +116,3 @@ $docente4 -> set_num_documento('1114525630');
 $docente5 -> set_tipo_documento('RC');
 $docente5 -> set_num_documento('1114521005');
 
-
-
-
-
-//departamento de una empresa y pais

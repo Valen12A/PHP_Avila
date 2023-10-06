@@ -24,7 +24,7 @@ class DepartamentoEmpresa{
 $departamento1 = new DepartamentoEmpresa('Departamento Financiero', 'Planeacion financiera', 'Contabilidad general');
 $departamento2 = new DepartamentoEmpresa('Departamento De Recursos humanos','Seleccion oportuna', 'Reclutamiento y contratacion');
 $departamento3 = new DepartamentoEmpresa('Departamento De Marketing', 'Correcta invetsigacion de mercados', 'Diseño de mercadotecnia');
-$departamento4 = new DepartamentoEmpresa('Departamento De Compras','Comparar materiales', 'Calidad de materiles');
+$departamento4 = new DepartamentoEmpresa('Departamento De Compras','Comprar materiales', 'Calidad de materiles');
 $departamento5 = new DepartamentoEmpresa('Departamento De Logistica', 'Implementar nuevas tecnologias', 'fabricante de tecnologia');
 
 
