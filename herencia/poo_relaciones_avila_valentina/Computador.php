@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
-//Crear superclase automotor
+
+
 class Computador{
     private string $fabricante;
     private string $cap_memoria;
@@ -78,6 +79,9 @@ class Computador{
     }
     public function set_num_puertoUSB($num_puertoUSB){
         $this->num_puertoUSB = $num_puertoUSB;
+    }
+    public static function obtener_fecha(){
+        return date('Y-m-d');
     }
 }
 

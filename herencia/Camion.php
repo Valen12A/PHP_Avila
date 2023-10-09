@@ -4,8 +4,8 @@ require_once('Automotor.php');
 class Camion extends Automotor{
    
     //Atributos de la subclase Automovil
-    private string $tipo;
-    private string $color;
+    private string $num_ejes;
+    private string $cap_carga;
    
     //Creando constructor completo incluyendo los atributos propios y los de la Superclase Automotor
     public function __construct(string $marca, string $modelo, int $precio, int $num_ejes, float $cap_carga) {
@@ -14,22 +14,22 @@ class Camion extends Automotor{
         parent::__construct($marca, $modelo, $precio);
        
         //Declarando el destino de los atributos de la subclase Automovil
-        $this->tipo = $num_ejes;
-        $this->color = $cap_carga;
-    }
+        $this->num_ejes = $num_ejes;
+        $this->cap_carga = $cap_carga;
+    }   
     //Los métodos SET se usan para asignar valores a los atributos
     public function set_num_ejes($num_ejes){
-        $this->tipo=$num_ejes;
+        $this->num_ejes=$num_ejes;
     }
     public function set_cap_carga($cap_carga){
-        $this->color=$cap_carga;
+        $this->cap_carga=$cap_carga;
     }
     //Con el método GET se devuelven o recuperan los datos de los aributos
     public function get_num_ejes(){
-        return $this->tipo;
+        return $this->num_ejes;
     }
     public function get_cap_carga(){
-        return $this->color;
+        return $this->cap_carga;
     }
 }
 
