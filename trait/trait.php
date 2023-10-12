@@ -1,7 +1,7 @@
 <?php
     trait mensaje{
     public function imprimir_mensaje(){
-        echo "Utilizando un trait en php para POO";
+        echo "Utilizando un trait en php para POO...";
 }
 }
 
