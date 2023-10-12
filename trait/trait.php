@@ -12,4 +12,4 @@ class Bienvenido {
 $objeto1 = new Bienvenido();
 $objeto1 -> imprimir_mensaje();
 
-?>
+?>  
