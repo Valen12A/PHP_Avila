@@ -25,7 +25,7 @@ class Computador_laptop extends Computador{
     }
 }
 
-/*
+
 $computador1_lap = new Computador_laptop('Lenovo', '32RAM', 'RAM', 'Bytes', '250.500Bytes', 'Linux', 'Office 365', 'ADM', 3, 'True', 45);
 
 $computador2_lap = new Computador_laptop('Hp', '20RAM', 'RAM', 'Gbytes', '300.000Gbytes', 'Windows', 'Office 365', 'ADM', 3, 'False', 45);
@@ -58,4 +58,4 @@ echo '<br>' . 'Numero de puertos USB:' . $computador2_lap -> get_num_puertoUSB()
 echo '<br>' . 'Tactil:' . $computador2_lap -> get_tactil();
 echo '<br>' . 'Potencia bateria:' . $computador2_lap -> get_pot_bateria();
 echo '<br>';
-*/
+

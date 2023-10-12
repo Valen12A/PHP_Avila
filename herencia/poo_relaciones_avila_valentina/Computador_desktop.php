@@ -17,7 +17,7 @@ class Computador_desktop extends Computador{
     }
 }
 
-/*
+
 $compuatdor1_des = new Computador_desktop('Dell', '64RAM', 'RAM', 'GBytes', '250.500Gbytes', 'IOS', 'Office 365', 'CPU', 4,'False');
 
 $computador2_des = new Computador_desktop('Asus', '20RAM', 'RAM', 'Tbytes', '300.000GTbytes', 'Windows', 'Office 365', 'ADM', 3, 'False');
@@ -48,4 +48,3 @@ echo '<br>' . 'Procesador: ' . $computador2_des->get_procesador();
 echo '<br>' . 'Numero de puertos USB:' . $computador2_des -> get_num_puertoUSB();
 echo '<br>' . 'UPS: ' . $computador2_des -> get_ups();
 echo '<br>';
-*/
