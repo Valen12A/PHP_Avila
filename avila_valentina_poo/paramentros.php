@@ -7,7 +7,8 @@ metodo1(saludo: "Buenos dias", nombre: "Valentina", pregunta: "¿Como estas?",  
 
 
 function metodo2($nombre, $edad = "20", $estatura = "1.80", $profesion = "Programador") {
-    echo '<br>' . "$nombre $profesion $edad $estatura ";
+    echo '<br>' . "$nombre $edad $estatura $profesion";
 }
 
 metodo2("Juan"); 
+
